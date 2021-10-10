@@ -10,11 +10,6 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 10px;
   }
 
-  // .root {
-  //   height: calc(100vh - 11rem);
-  //   overflow: scroll;
-  // }
-
   body {
     background: #3f3f3f;
     background: ${({ theme }) => theme.background};
