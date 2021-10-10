@@ -1,0 +1,41 @@
+.control {
+  text-align: left;
+  padding: 1rem 0;
+  border-bottom: 1px solid #a5a3a391;
+}
+
+.control label,
+.control input {
+  font: inherit;
+}
+
+.control input {
+  flex: 3;
+  padding: 0.8rem;
+  border: none;
+  background: transparent;
+  color: inherit;
+}
+
+.control input:focus {
+  outline: none;
+  background: transparent;
+}
+
+.control:focus-within ~ div{
+  opacity: 0.5;
+}
+
+.control.invalid {
+  border-bottom: 1px solid red;
+}
+
+.control.invalid p {
+  font-size: 1.2rem;
+  color: red;
+}
+
+::-webkit-calendar-picker-indicator {
+  opacity: 0.6;
+  filter: invert(0.5);
+}

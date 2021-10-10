@@ -1,0 +1,34 @@
+.chartCard {
+  padding: 1rem;
+}
+
+.chart {
+  background-color: #0096FF;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  height: 12rem;
+  color: #fff;
+  padding: 1.5rem;
+}
+
+.points {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 1rem 1rem 0;
+}
+
+.points p {
+  margin: 0;
+  font-size: .9rem;
+}
+
+.bars {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}

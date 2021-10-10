@@ -1,0 +1,79 @@
+.container {
+  cursor: pointer;
+  padding: 0 1rem 0 2rem;
+  z-index: 10;
+}
+
+.dots::before {
+  content:'';
+  height: .5rem;
+  width: .5rem;
+  background-color: #A5A3A3;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 1.5rem;
+  position: absolute;
+  left: -1.5rem;
+  top: -2.5rem;
+}
+
+.dots::after {
+  content:'';
+  height: .5rem;
+  width: .5rem;
+  background-color: #A5A3A3;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 1.5rem;
+  position: absolute;
+  left: -1.5rem;
+  top: -0.4rem;
+}
+
+.dots {
+  height: .5rem;
+  width: .5rem;
+  background-color: #A5A3A3;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.optionsMenu {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 1.5rem 1rem;
+  width: 15rem;
+  border: 1px solid #a5a3a391;
+  text-align: left;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 2px 2px 1px 0px #a5a3a391;
+}
+
+.optionsMenu.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.optionsMenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.optionsMenu ul li {
+  padding: 0.3rem 1rem;
+}
+
+.optionsMenu ul li:hover {
+  background: #A5A3A3;
+}
+
+.optionsMenu svg {
+  margin-bottom: -.1rem;
+}

@@ -1,0 +1,20 @@
+.header {
+  width: 95%;
+  max-width: 768px;
+  height: 6.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+}
+
+.header svg {
+  font-size: 2.5rem;
+  cursor: pointer;
+  vertical-align: middle;
+}
