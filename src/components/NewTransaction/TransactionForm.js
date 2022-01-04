@@ -220,8 +220,8 @@ const TransactionForm = ({ isEditing, onCancel, onSaveTransactionData }) => {
           id="date"
           label="Date"
           type="date"
-          min="2021-01-01"
-          max="2021-12-31"
+          min="2022-01-01"
+          max="2022-12-31"
           isValid={dateHasError}
           onChange={dateChangeHandler}
           onBlur={dateBlurHandler}
